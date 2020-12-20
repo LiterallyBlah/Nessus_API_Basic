@@ -7,7 +7,7 @@ This repository contains scripts to use Nessus from the command line. Features s
 usage: nessus_refer.py [-h] [--targets TARGETS] [--name NAME] [--status STATUS] [--stop STOP] [--export EXPORT]
                        [--output OUTPUT] [--list]
 
-Nessus API. Functionality: Start, Check Status and Download.
+Nessus API. Functionality: Start, Check Status, Download and List.
 Following Options:
         Create Scan: python3 nessus.py -t google.com -n Google_Scan
         Stop Scan: python3 nessus.py -x 219
