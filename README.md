@@ -9,12 +9,11 @@ usage: nessus_refer.py [-h] [--targets TARGETS] [--name NAME] [--status STATUS] 
 
 Nessus API. Functionality: Start, Check Status and Download.
 Following Options:
-**        Create Scan: python3 nessus.py -t google.com -n Google_Scan
-
-        Stop Scan: python3 nessus.py -x 219
-        Status Scan: python3 nessus.py -s 219
-        List Scans: python3 nessus.py -l
-        Output Scan: python3 nessus.py -e nessus -o /home/scutter/Reports/blah.nessus**
+**        Create Scan: python3 nessus.py -t google.com -n Google_Scan**
+**        Stop Scan: python3 nessus.py -x 219**
+**        Status Scan: python3 nessus.py -s 219**
+**        List Scans: python3 nessus.py -l**
+**        Output Scan: python3 nessus.py -e nessus -o /home/scutter/Reports/blah.nessus**
 
 optional arguments:
   -h, --help            show this help message and exit
