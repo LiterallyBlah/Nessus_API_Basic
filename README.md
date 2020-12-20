@@ -3,6 +3,7 @@ This repository contains scripts to use Nessus from the command line. Features s
 
 
 # nessus_refer.py Options
+```
 usage: nessus_refer.py [-h] [--targets TARGETS] [--name NAME] [--status STATUS] [--stop STOP] [--export EXPORT]
                        [--output OUTPUT] [--list]
 
@@ -28,3 +29,4 @@ optional arguments:
   --output OUTPUT, -o OUTPUT
                         Ouput path.
   --list, -l            List Scans with their IDs
+```
