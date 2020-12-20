@@ -13,7 +13,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class NessusRequest(object):
 
-    parser = argparse.ArgumentParser(description='Nessus API. Functionality: Start, Check Status and Download.\nFollowing Options:\n\tCreate Scan: python3 nessus.py -t google.com -n Google_Scan\n\tStop Scan: python3 nessus.py -x 219\n\tStatus Scan: python3 nessus.py -s 219\n\tList Scans: python3 nessus.py -l\n\tOutput Scan: python3 nessus.py -e nessus -o /home/scutter/Reports/blah.nessus', formatter_class=argparse.RawTextHelpFormatter)
+    parser = argparse.ArgumentParser(description='Nessus API. Functionality: Start, Check Status, Download and List.\nFollowing Options:\n\tCreate Scan: python3 nessus.py -t google.com -n Google_Scan\n\tStop Scan: python3 nessus.py -x 219\n\tStatus Scan: python3 nessus.py -s 219\n\tList Scans: python3 nessus.py -l\n\tOutput Scan: python3 nessus.py -e nessus -o /home/scutter/Reports/blah.nessus', formatter_class=argparse.RawTextHelpFormatter)
 
     parser.add_argument('--targets', '-t', help='Target list. This can be a file or directory.')
     parser.add_argument('--name', '-n', help='Name of scan.')
