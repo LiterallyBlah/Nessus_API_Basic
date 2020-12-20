@@ -29,3 +29,13 @@ optional arguments:
                         Ouput path.
   --list, -l            List Scans with their IDs
 ```
+
+
+# Requirements (pip)
+json
+argparse
+requests
+shutil
+time
+urllib3
+os
