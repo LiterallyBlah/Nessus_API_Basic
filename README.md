@@ -2,7 +2,7 @@
 This repository contains scripts to use Nessus from the command line. Features such as creating, stopping, status checking and outputting.
 
 
-# nessus_refer.py Options
+# nessus_tool.py Options
 ```
 usage: nessus_refer.py [-h] [--targets TARGETS] [--name NAME] [--status STATUS] [--stop STOP] [--export EXPORT]
                        [--output OUTPUT] [--list]
