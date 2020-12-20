@@ -32,10 +32,10 @@ optional arguments:
 
 
 # Requirements (pip)
-json
-argparse
-requests
-shutil
-time
-urllib3
-os
+* json
+* argparse
+* requests
+* shutil
+* time
+* urllib3
+* os
