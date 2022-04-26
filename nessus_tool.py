@@ -30,9 +30,9 @@ class NessusRequest(object):
 
     def __init__(
         self,
-        username="scutter",
-        password="MYw09XGXxTHAKiMwZviE",
-        host="https://scanner.hedgehogsecurity.com:8834",
+        username="",
+        password="",
+        host="https://127.0.0.1:8834",
         verify=False,
         proxies=None,
         uuid="ad629e16-03b6-8c1d-cef6-ef8c9dd3c658d24bd260ef5f9e66",
