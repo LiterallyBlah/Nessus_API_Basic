@@ -31,6 +31,9 @@ optional arguments:
 ```
 
 
+# Configuration
+Under def __init__, you can find where to put the nessus URL and credentials. There is also a policy id where that will be the default scan configuration.
+
 # Requirements (pip)
 * argparse
 * requests
