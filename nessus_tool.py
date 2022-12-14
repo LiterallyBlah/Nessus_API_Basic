@@ -104,7 +104,7 @@ class NessusRequest(object):
                     "policy_id": self.policy_id,
                     "scanner_id": "1",
                     "folder_id": self.folder_id,
-                    "description": "Launched by Hedgehog Script.",
+                    "description": "Launched by Blah's Script.",
                     "name": name,
                     },
                 }
